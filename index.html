@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Poem Generator</title>
     <link rel="stylesheet" href="/src/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -17,7 +18,7 @@
     </header>
     <main>
       <form id="music-generator-form">
-        <input type="text" placeholder="Enter your preferred music genre" autofocus required autocomplete="off" class="form-input">
+        <input type="text" placeholder="Enter your preferred music genre" autofocus required autocomplete="off" class="form-input" id="user-instructions">
         <input type="submit" value="Enter" class="form-button">
       </form>
     </main>
