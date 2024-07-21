@@ -15,7 +15,6 @@ body {
   -webkit-box-shadow: 0px -37px 46px -21px rgba(209, 128, 26, 0.75);
   -moz-box-shadow: 0px -37px 46px -21px rgba(209, 128, 26, 0.75);
   padding: 7px;
-  margin-bottom: 20px;
 }
 h1 {
   text-align: center;
@@ -58,7 +57,7 @@ form input {
   margin: 0 auto;
   border-radius: 20px;
   background-color: white;
-  width: 58%;
+  width: 30%;
   line-height: 20px;
   padding: 20px;
   border-left: 3px solid #ca7aec;
@@ -84,7 +83,7 @@ footer {
   background-color: white;
   border-radius: 20px;
   opacity: 0.8;
-  width: 56.5%;
+  width: 30%;
   padding: 10px;
 }
 .hint {
