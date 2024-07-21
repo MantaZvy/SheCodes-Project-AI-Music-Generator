@@ -17,13 +17,16 @@
       <h1>AI Music Generator </h1>
     </header>
     <main>
+      <div class="music-container">
       <form id="music-generator-form">
         <input type="text" placeholder="Enter your preferred music genre" autofocus required autocomplete="off" class="form-input" id="user-instructions">
         <input type="submit" value="Enter" class="form-button">
+        </div>
+        <div class="hint">e.g: Jazz, R&B, Pop...</div>
       </form>
     </main>
   </div>
-    <div class="suggestions" id="music"></div>
+    <div class="suggestions hidden" id="music"></div>
     <footer>
       This AI project was coded by
       <a

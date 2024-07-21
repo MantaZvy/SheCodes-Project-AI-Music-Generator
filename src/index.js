@@ -1,4 +1,6 @@
 function displayMusicSuggestions(response) {
+  console.log("Poem generated!");
+
   new Typewriter("#music", {
     strings: response.data.answer,
     autoStart: true,
@@ -16,6 +18,11 @@ function generateMusicSuggestions(event) {
   let context =
     "You are a music expert who knows all songs from every genre and love to suggest great songs. Your mission is to generate any 5 song suggestions based on user instructions. Make sure to follow user instructions and also give new line for each song in html <br> format, thank you!.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+  let musicSuggestions = document.querySelector("#music");
+  musicSuggestions.classList.remove("hidden");
+  musicSuggestions.innerHTML = `<div class="blink">Generating ${instructionsInput.value} suggestions</div>`;
+
   console.log("generating poem");
   console.log(`prompt: ${prompt}`);
   console.log(`context: ${context}`);
