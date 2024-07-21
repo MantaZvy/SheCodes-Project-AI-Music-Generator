@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Poem Generator</title>
@@ -15,17 +16,13 @@
       <h1>AI Music Generator </h1>
     </header>
     <main>
-      <form class="form-container">
+      <form id="music-generator-form">
         <input type="text" placeholder="Enter your preferred music genre" autofocus required autocomplete="off" class="form-input">
         <input type="submit" value="Enter" class="form-button">
       </form>
     </main>
   </div>
-  <section class="poem">
-    <div class="ai-text-generation-space">
-      <p>Hey there!</p>
-    </div>
-  </section>
+    <div class="suggestions" id="music"></div>
     <footer>
       This AI project was coded by
       <a
@@ -39,6 +36,6 @@
     </footer>
   
 
-    <script src="/src/index.js"></script>
+    <script src="src/index.js"></script>
   </body>
 </html>

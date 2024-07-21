@@ -54,19 +54,16 @@ form input {
 .form-button:hover {
   --_p: 0%;
 }
-.poem {
+.suggestions {
   display: block;
   margin: 0 auto;
   border-radius: 20px;
   background-color: white;
   width: 58%;
   line-height: 20px;
-  padding: 5px;
+  padding: 20px;
   border-left: 3px solid #ca7aec;
   margin-bottom: 20px;
-}
-.ai-text-generation-space {
-  text-align: center;
 }
 footer {
   display: block;
@@ -78,9 +75,4 @@ footer {
   opacity: 0.8;
   width: 56.5%;
   padding: 10px;
-}
-.footer-container {
-  box-shadow: 0px 48px 46px -21px rgba(209, 128, 26, 0.75);
-  -webkit-box-shadow: 0px 48px 46px -21px rgba(209, 128, 26, 0.75);
-  -moz-box-shadow: 0px 48px 46px -21px rgba(209, 128, 26, 0.75);
 }
